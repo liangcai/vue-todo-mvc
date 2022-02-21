@@ -231,9 +231,10 @@ export default {
 </script>
 
 <style scoped>
-@import "../../node_modules/todomvc-common/base.css";
+/* @import "../../node_modules/todomvc-common/base.css"; */
 @import "../../node_modules/todomvc-app-css/index.css";
-
+</style>
+<style scoped src="../../node_modules/todomvc-common/base.css">
 [v-cloak] {
   display: none;
 }
